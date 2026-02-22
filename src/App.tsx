@@ -83,7 +83,7 @@ function App() {
     }
   };
 
-  const handleSubscribe = async (priceId: string, planName: string) => {
+  const handleSubscribe = async (priceId: string, _planName: string) => {
     setCheckoutLoading(priceId);
     setCheckoutError('');
 

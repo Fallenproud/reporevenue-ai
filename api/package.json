@@ -1,0 +1,11 @@
+{
+  "name": "reporevenue-ai-backend",
+  "version": "1.0.0",
+  "description": "Serverless backend API for RepoRevenue AI",
+  "type": "module",
+  "dependencies": {
+    "stripe": "^14.14.0",
+    "@google/generative-ai": "^0.2.1",
+    "micro": "^10.0.1"
+  }
+}
